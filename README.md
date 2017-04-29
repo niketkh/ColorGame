@@ -1,7 +1,7 @@
 # Curious Miner Color Game
-A simple guess the color game using HTML and CSS
+A simple guess the color game using HTML, CSS and JavaScript
 
-#### Hard Mode
+## Hard Mode
 
 <img src="https://github.com/niketkh/ColorGame/blob/master/Screenshots/color-game-hard-1.png">
 
@@ -10,7 +10,7 @@ A simple guess the color game using HTML and CSS
 <img src="https://github.com/niketkh/ColorGame/blob/master/Screenshots/color-game-hard-3.png">
 
 
-#### Easy Mode
+## Easy Mode
 
 <img src="https://github.com/niketkh/ColorGame/blob/master/Screenshots/color-game-easy-1.png">
 
