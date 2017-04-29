@@ -1,0 +1,101 @@
+body {
+	background-color: #212121;
+	margin: 0px;
+	font-family: "Arial";
+}
+
+.square {
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	float: left;
+	border-radius: 15%;
+	transition: background 0.5s;
+	--webkit-transition: background 0.5s;
+	--moz-transition: background 0.5s;;
+}
+
+#color-container {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+#headSection{
+	color: white;
+	text-align: center;
+	margin: 0;
+	background: steelblue;
+	padding-bottom: 20px
+}
+
+#headSection > h1 {
+	margin: 0px;
+}
+
+#headSection > h3 {
+	margin: 0px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.curious-miner {
+	font-family: 'Pacifico', cursive;
+}
+
+hr {
+	width: 200px;
+	margin-top: 0px;
+	border: 0; 
+	height: 2px; 
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 255.75), rgba(255, 255, 255, 0));
+}
+
+.selected {
+	background: steelblue;
+	color: white;
+}
+
+
+#colorDisplay {
+	font-family: 'Inconsolata', monospace;
+	font-size: 200%;
+}
+
+#stripe {
+	text-align: center;
+	background-color: #fff;
+	height: 30px;
+	color: black;
+	margin-top: 0px;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+	font-family: "Arial";
+	font-weight: 700;
+	color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+	letter-spacing: 1px;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	--webkit-transition: all 0.3s;
+	--moz-transition: all 0.3s;
+	outline: none;
+}
+
+button:hover{
+	color: white;
+	background: steelblue;
+}
